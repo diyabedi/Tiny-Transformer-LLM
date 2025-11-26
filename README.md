@@ -1,2 +1,4 @@
 # Tiny-Transformer-LLM
-This project implements a minimal Transformer architecture from scratch to perform next-token prediction on the Tiny Shakespeare corpus. 
+This project implements a minimal Transformer architecture from scratch to perform next-token prediction on the Tiny Shakespeare corpus. The Transformer, introduced in the seminal "Attention is All You Need" paper (Vaswani et al., 2017), revolutionised natural language processing by relying entirely on self-attention mechanisms without recurrent connections.
+
+The goal of this project is to build and train a lightweight Transformer-based language model from scratch using the Tiny Shakespeare dataset. The problem is framed as a next-token prediction task, where the model must predict the next token in a sequence given all preceding tokens. Everything, including a BPE Tokenizer is built from scratch and then compared the results with official BPE Tokenizer library to see the accuracy of the model. 
